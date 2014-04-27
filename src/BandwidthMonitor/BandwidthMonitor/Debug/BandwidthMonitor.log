@@ -1,0 +1,23 @@
+﻿Build started 27/04/2014 21:34:58.
+     1>Project "c:\Projects\bandwidthd\src\BandwidthMonitor\BandwidthMonitor\BandwidthMonitor.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I\projects\bandwidthd\WpdPack\Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\BandwidthMonitor.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I\projects\bandwidthd\WpdPack\Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\BandwidthMonitor.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt bandwidthd.cpp BandwidthMonitor.cpp extensions.cpp graph.cpp pgsql.cpp sqlite.cpp
+         sqlite.cpp
+     1>c:\projects\bandwidthd\src\bandwidthmonitor\bandwidthmonitor\bandwidthd.h(9): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+         pgsql.cpp
+     1>c:\projects\bandwidthd\src\bandwidthmonitor\bandwidthmonitor\bandwidthd.h(9): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+         graph.cpp
+     1>c:\projects\bandwidthd\src\bandwidthmonitor\bandwidthmonitor\graph.cpp(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+         extensions.cpp
+     1>c:\projects\bandwidthd\src\bandwidthmonitor\bandwidthmonitor\bandwidthd.h(9): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+         BandwidthMonitor.cpp
+         bandwidthd.cpp
+     1>c:\projects\bandwidthd\src\bandwidthmonitor\bandwidthmonitor\bandwidthd.h(9): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "c:\Projects\bandwidthd\src\BandwidthMonitor\BandwidthMonitor\BandwidthMonitor.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.24
